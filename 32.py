@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-from pprint import pprint
-
 def isPandigital(s):
 	if len(s)!=9: return 0;
 	digits = [0,0,0,0,0,0,0,0,0,0]

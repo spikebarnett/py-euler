@@ -14,6 +14,7 @@ def generatePrimes(i):
 	return p
 
 def isPrime(i):
+	if i == 2: return 1
 	if i < 3: return 0
 	if i % 2 == 0: return 0
 	j = 3
